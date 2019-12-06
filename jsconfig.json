@@ -1,0 +1,14 @@
+/**
+  jsconfig.json源于tsconfig.json，是TypeScript的配置文件
+  jsconfig.json相当于tsconfig.json的“allowJs”属性设置为true
+*/
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
